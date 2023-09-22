@@ -1,11 +1,15 @@
-nav {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPs72mE7atouLyAyPzG41AuLnhzzVNaD5Osg&usqp=CAU");
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 20px;
-  height: 7em;
+.logo {
+  height: 3em;
+  width: 3em;
+  border: solid 1px #0a0101;
+  border-radius: 40px;
+  margin-right: 10px;
+  margin-bottom: -10px;
+  margin-left: -20;
+  margin-top: -10px;
+}
+ul a {
+  color: rgb(252, 252, 252);
 }
 
-ul a {
-  color: aliceblue;
-}
+/* teste da nova nav */
