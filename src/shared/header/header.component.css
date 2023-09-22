@@ -1,0 +1,11 @@
+nav {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPs72mE7atouLyAyPzG41AuLnhzzVNaD5Osg&usqp=CAU");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  height: 7em;
+}
+
+ul a {
+  color: aliceblue;
+}
