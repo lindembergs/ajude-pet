@@ -1,6 +1,6 @@
 .principal {
   background-color: rgb(206, 209, 203);
-  height: 95vh;
+  height: 20;
   display: flex;
   justify-content: center;
   align-items: top;
@@ -12,4 +12,10 @@
 
 span {
   color: green;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
