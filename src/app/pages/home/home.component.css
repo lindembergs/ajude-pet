@@ -16,6 +16,24 @@ span {
 
 .cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  border: solid 1px rgb(21, 163, 8);
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/22/20/22/green-2432374_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  border: solid 2px rgb(21, 163, 8);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card:hover {
+  border: solid 2px rgb(214, 191, 58);
+  border-radius: 11px;
+  background-color: transparent;
+  color: aliceblue;
+  transition: 1s linear;
 }
