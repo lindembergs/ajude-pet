@@ -1,3 +1,15 @@
+.principal {
+  background-color: rgb(206, 209, 203);
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
 .container {
-  margin-left: 450px;
+  display: flex;
+  flex-direction: row;
+}
+
+span {
+  color: green;
 }
