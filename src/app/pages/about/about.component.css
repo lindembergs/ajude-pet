@@ -5,6 +5,7 @@
 .sobre {
   display: flex;
   justify-content: center;
+  text-decoration: underline;
 }
 h2 {
   font-weight: bold;
@@ -23,4 +24,9 @@ h2 {
 p {
   font-weight: bold;
   font-size: 24px;
+}
+
+span {
+  text-decoration: underline;
+  color: rgb(10, 151, 46);
 }
