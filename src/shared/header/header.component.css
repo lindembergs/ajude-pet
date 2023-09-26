@@ -12,6 +12,7 @@
 li a img {
   width: 3em;
   height: 3em;
+  margin-right: 5px;
 }
 span {
   color: green;
