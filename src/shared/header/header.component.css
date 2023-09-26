@@ -8,6 +8,11 @@
   margin-left: -20;
   margin-top: -10px;
 }
+
+li a img {
+  width: 3em;
+  height: 3em;
+}
 span {
   color: green;
 }
