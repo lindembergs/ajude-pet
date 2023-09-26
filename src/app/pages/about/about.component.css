@@ -21,6 +21,11 @@ h2 {
   border-radius: 300px;
   margin-right: 10px;
 }
+.texto-img img:hover {
+  border: outset 3px rgb(10, 151, 46);
+  transition: 1s linear;
+  transform: translateY(-25px);
+}
 p {
   font-weight: bold;
   font-size: 24px;

@@ -36,6 +36,7 @@ span {
   background-color: transparent;
   color: aliceblue;
   transition: 1s linear;
+  transform: translateY(-10px);
 }
 
 .fa-whatsapp {
