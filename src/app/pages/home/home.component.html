@@ -27,9 +27,15 @@
         Chaves pix para doações: Telefone: 8393088753 E-mail:
         contatoajudepet@gmail.com
       </p>
-      <a href="#" class="btn btn-primary"
-        ><i class="fa-brands fa-pix fa-xl"></i> Doe através do QR code</a
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#imageModal"
       >
+        <i class="fa-brands fa-pix fa-xl"></i> Doe através do QR code
+      </button>
     </div>
   </div>
   <div class="card" style="width: 18rem">
@@ -44,3 +50,18 @@
     </div>
   </div>
 </section>
+<!-- modal -->
+<div class="modal" id="imageModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img [src]="fakeQrcode" alt="Imagem" />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Fechar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
