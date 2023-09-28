@@ -35,3 +35,9 @@ span {
   text-decoration: underline;
   color: rgb(10, 151, 46);
 }
+
+@media (max-width: 768px) {
+  img {
+    display: none !important;
+  }
+}
