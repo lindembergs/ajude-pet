@@ -2,3 +2,10 @@
   margin-top: 5px;
   background-color: rgb(206, 209, 203);
 }
+.btn {
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: green;
+  transition: 0.5s linear;
+}
