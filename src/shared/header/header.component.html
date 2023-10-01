@@ -24,25 +24,6 @@
             >
           </li>
         </ul>
-        <form
-          class="d-flex"
-          role="search"
-          (ngSubmit)="realizarPesquisa()"
-          #pesquisaForm="ngForm"
-        >
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Pesquisar"
-            aria-label="Search"
-            [(ngModel)]="termoDePesquisa"
-            name="termoDePesquisa"
-          />
-
-          <button class="btn btn-outline-success" type="submit">
-            Pesquisar
-          </button>
-        </form>
       </div>
     </div>
   </nav>

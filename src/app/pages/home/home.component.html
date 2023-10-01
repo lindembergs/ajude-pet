@@ -15,17 +15,17 @@
       <a
         href="https://api.whatsapp.com/send?phone=558393088753"
         class="btn btn-primary"
-        ><i class="fa-brands fa-whatsapp fa-xl"></i> Contato</a
+        ><i class="fa-brands fa-whatsapp fa-xl"></i> Dúvidas e Parcerias</a
       >
     </div>
   </div>
   <div class="card" style="width: 18rem">
     <img [src]="cardImagem1" class="card-img-top" alt="..." />
     <div class="card-body">
-      <h5 class="card-title">Doações</h5>
+      <h5 class="card-title">Quero ajudar</h5>
       <p class="card-text">
-        Chaves pix para doações: Telefone: 8393088753 E-mail:
-        contatoajudepet@gmail.com
+        <i class="fa-solid fa-key fa-lg"></i> Chaves pix para doações: Telefone:
+        8393088753 E-mail: contatoajudepet@gmail.com
       </p>
       <!-- Button trigger modal -->
       <button
@@ -34,14 +34,14 @@
         data-bs-toggle="modal"
         data-bs-target="#imageModal"
       >
-        <i class="fa-brands fa-pix fa-xl"></i> Doe através do QR code
+        <i class="fa-brands fa-pix fa-xl"></i> Doar através do QR code
       </button>
     </div>
   </div>
   <div class="card" style="width: 18rem">
     <img [src]="cardImagem1" class="card-img-top" alt="..." />
     <div class="card-body">
-      <h5 class="card-title">Página para adoções em breve</h5>
+      <h5 class="card-title">Quero adotar</h5>
       <p class="card-text">
         Está precisando de mais alegria no seu lar? adote um animalzinho e torne
         sua vida mais feliz
@@ -55,7 +55,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-body">
-        <img [src]="fakeQrcode" alt="Imagem" />
+        <img class="img-qr" [src]="qrcode" alt="Imagem" />
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">

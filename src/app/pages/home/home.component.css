@@ -29,6 +29,12 @@ span {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+.card a {
+  border-radius: 40px;
+}
+button {
+  border-radius: 50px;
+}
 
 .card:hover {
   border: solid 2px rgb(214, 191, 58);
@@ -36,13 +42,28 @@ span {
   background-color: transparent;
   color: aliceblue;
   transition: 1s linear;
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 .fa-whatsapp {
   color: #25d366;
 }
 
+.fa-key {
+  color: aqua;
+}
+
 .fa-pix {
   color: aqua;
+}
+
+.img-qr {
+  max-width: 85vw;
+  width: 30em;
+}
+
+.modal img {
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }

@@ -12,6 +12,6 @@ export class HeaderComponent {
   termoDePesquisa: any = '';
 
   realizarPesquisa(): void{
-    return console.log( `pesquisou por: $(this.termoDePesquisa)` );
+    return console.log( 'você pesquisou por: ' + this.termoDePesquisa );
   }
 }
