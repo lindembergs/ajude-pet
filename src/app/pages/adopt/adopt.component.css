@@ -1,9 +1,21 @@
 .home {
   display: flex;
   justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .btn {
   border-radius: 20px;
+}
+.btn-locale {
+  display: flex;
+  justify-content: center;
+}
+.btn-info {
+  background-color: #04742d;
+  color: #ffffff;
+  padding: 5px;
+  font-size: 18px;
 }
 .btn:hover {
   background-color: green;
@@ -24,6 +36,7 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 .card a {
   border-radius: 40px;
 }
