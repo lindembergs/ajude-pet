@@ -1,5 +1,7 @@
 <div class="home">
-  <button>Voltar a página inicial</button>
+  <a routerLink="/" class="btn btn-primary"
+    ><i class="fa-solid fa-house"></i> Retornar a página inicial</a
+  >
 </div>
 <section class="cards">
   <div class="card" style="width: 18rem">
@@ -45,6 +47,20 @@
       </p>
       <a routerLinkActive="active" routerLink="/adoção" class="btn btn-primary"
         >🐾Disponíveis para adoção</a
+      >
+    </div>
+  </div>
+  <div class="card" style="width: 18rem">
+    <img [src]="imgDogs" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">Contato</h5>
+      <p class="card-text">
+        Em caso de dúvidas e informações, deixarei abaixo meu whatsapp pessoal
+      </p>
+      <a
+        href="https://api.whatsapp.com/send?phone=558393088753"
+        class="btn btn-primary"
+        ><i class="fa-brands fa-whatsapp fa-xl"></i> Dúvidas e Parcerias</a
       >
     </div>
   </div>

@@ -1,3 +1,14 @@
+.home {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: green;
+  transition: 0.5s linear;
+}
 .cards {
   display: flex;
   justify-content: space-evenly;
@@ -27,6 +38,10 @@ button {
   color: aliceblue;
   transition: 1s linear;
   transform: translateY(-5px);
+}
+
+.fa-house {
+  color: aqua;
 }
 
 .fa-whatsapp {
