@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./adopt.component.css']
 })
 export class AdoptComponent {
+  imgDogs = 'https://cdn.pixabay.com/photo/2018/10/01/09/21/pets-3715733_640.jpg';
 
 }

@@ -1,0 +1,53 @@
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: solid 1px rgb(21, 163, 8);
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/22/20/22/green-2432374_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  border: solid 2px rgb(21, 163, 8);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.card a {
+  border-radius: 40px;
+}
+button {
+  border-radius: 50px;
+}
+
+.card:hover {
+  border: solid 2px rgb(214, 191, 58);
+  border-radius: 11px;
+  background-color: transparent;
+  color: aliceblue;
+  transition: 1s linear;
+  transform: translateY(-5px);
+}
+
+.fa-whatsapp {
+  color: #25d366;
+}
+
+.fa-key {
+  color: aqua;
+}
+
+.fa-pix {
+  color: aqua;
+}
+
+.img-qr {
+  max-width: 85vw;
+  width: 30em;
+}
+
+.modal img {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
