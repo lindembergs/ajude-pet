@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AdocaoComponent } from './adocao.component';
+import { AdoptComponent } from './adopt.component';
 
-describe('AdocaoComponent', () => {
-  let component: AdocaoComponent;
-  let fixture: ComponentFixture<AdocaoComponent>;
+describe('AdoptComponent', () => {
+  let component: AdoptComponent;
+  let fixture: ComponentFixture<AdoptComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [AdocaoComponent]
+      declarations: [AdoptComponent]
     });
-    fixture = TestBed.createComponent(AdocaoComponent);
+    fixture = TestBed.createComponent(AdoptComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
