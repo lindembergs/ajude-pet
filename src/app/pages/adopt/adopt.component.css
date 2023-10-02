@@ -4,6 +4,12 @@
   padding-top: 5px;
   padding-bottom: 5px;
 }
+li:first-child {
+  margin-right: 30px;
+}
+.telefone {
+  margin-left: 50px;
+}
 .btn {
   border-radius: 20px;
 }
