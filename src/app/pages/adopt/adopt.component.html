@@ -5,7 +5,7 @@
 </div>
 <section class="cards">
   <div class="card" style="width: 18rem">
-    <img [src]="imgDogs" class="card-img-top" alt="..." />
+    <img [src]="imgCard1" class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title"><strong>Nome: Maggie</strong></h5>
       <p class="card-text">
@@ -54,8 +54,77 @@
         <div class="modal-body">Dados do doador</div>
         <div class="dados-doador">
           <ul class="d-flex list-unstyled justify-content-evenly">
-            <li>Nome: Antônio</li>
-            <li>E-mail: exemplo@gmail.com</li>
+            <li>Nome: Antônio Justino Da Silva</li>
+            <li>E-mail: exemplo1234567@gmail.com</li>
+          </ul>
+          <div class="telefone">
+            <p>Telefone: 8399887766</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            <i class="fa-regular fa-circle-xmark fa-lg"></i> Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem">
+    <img [src]="imgCard2" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title"><strong>Nome: Baby Maggie</strong></h5>
+      <p class="card-text">
+        <strong>Raça: não especificada</strong>
+      </p>
+      <p><strong>Idade: 2 meses</strong></p>
+      <div class="btn-locale">
+        <button
+          class="btn-info"
+          data-bs-toggle="modal"
+          data-bs-target="#card-2"
+        >
+          Mais informações
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal card 2 -->
+  <div
+    class="modal fade"
+    id="card-2"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="exampleModalLabel">
+            Detalhes do animal
+            <div class="dados-animal">
+              <ul class="d-flex align-items-center list-unstyled text-wrap">
+                <li>Nome(animal): Baby Maggie</li>
+                <li>Raça: não especificada</li>
+              </ul>
+            </div>
+          </h2>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">Dados do doador</div>
+        <div class="dados-doador">
+          <ul class="d-flex list-unstyled justify-content-evenly">
+            <li>Nome: Antônio Justino Da Silva</li>
+            <li>E-mail: exemplo1234567@gmail.com</li>
           </ul>
           <div class="telefone">
             <p>Telefone: 8399887766</p>
