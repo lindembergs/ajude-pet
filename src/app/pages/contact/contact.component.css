@@ -1,0 +1,51 @@
+.logo {
+  height: 3em;
+  width: 3em;
+  border: solid 1px #0a0101;
+  border-radius: 40px;
+  margin-right: 10px;
+  margin-bottom: -10px;
+  margin-left: -20;
+  margin-top: -10px;
+}
+.parceiros {
+  height: 15em;
+  width: 15em;
+  display: flex;
+  justify-content: center;
+}
+.parceiros img {
+  width: 5em;
+  height: 5em;
+}
+
+li a img {
+  width: 3em;
+  height: 3em;
+  margin-right: 5px;
+}
+span {
+  color: green;
+}
+
+.navbar-toggler-icon {
+  color: green;
+}
+.navbar-toggler-icon {
+  background-color: rgb(126, 202, 12);
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item img {
+  max-height: 7rem;
+}
+
+#carouselExampleFade {
+  width: 60vw;
+  margin-left: 40px;
+}
