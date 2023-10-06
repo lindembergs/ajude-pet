@@ -8,6 +8,16 @@
   margin-left: -20;
   margin-top: -10px;
 }
+.parceiros {
+  height: 15em;
+  width: 15em;
+  display: flex;
+  justify-content: center;
+}
+.parceiros img {
+  width: 5em;
+  height: 5em;
+}
 
 li a img {
   width: 3em;
