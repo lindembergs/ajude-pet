@@ -17,6 +17,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     AboutComponent,
     ContactComponent,
     AdoptComponent,
+
 
 
 
