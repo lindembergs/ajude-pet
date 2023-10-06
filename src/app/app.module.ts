@@ -11,7 +11,8 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { AdoptComponent } from './pages/adopt/adopt.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { ParceirosComponent } from './components/parceiros/parceiros.component';
+
+
 
 
 
@@ -23,7 +24,10 @@ import { ParceirosComponent } from './components/parceiros/parceiros.component';
     AboutComponent,
     ContactComponent,
     AdoptComponent,
-    ParceirosComponent,
+
+
+
+
 
 
   ],
@@ -32,6 +36,7 @@ import { ParceirosComponent } from './components/parceiros/parceiros.component';
     AppRoutingModule,
     SharedModule,
     FormsModule,
+
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),
       // Register the ServiceWorker as soon as the application is stable
