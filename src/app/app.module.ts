@@ -11,6 +11,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { AdoptComponent } from './pages/adopt/adopt.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { ParceirosComponent } from './components/parceiros/parceiros.component';
 
 
 
@@ -22,6 +23,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     AboutComponent,
     ContactComponent,
     AdoptComponent,
+    ParceirosComponent,
 
 
   ],
