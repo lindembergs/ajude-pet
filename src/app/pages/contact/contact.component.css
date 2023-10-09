@@ -120,14 +120,15 @@ span {
   #carouselExampleFade {
     max-width: 35vw;
     margin-left: 220px;
-    margin-top: -65px;
+    margin-top: -5px;
     margin-bottom: -5px;
   }
   .carousel-item img {
-    max-height: 8vh;
+    max-height: 9vh;
   }
   .bandeira {
-    margin-top: -55px;
-    margin-left: -20em;
+    margin-top: -35px;
+    margin-left: 1rem;
+    margin-bottom: -35px;
   }
 }
