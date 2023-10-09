@@ -8,12 +8,12 @@
   margin-left: -20;
   margin-top: -10px;
 }
-.parceiros {
+/* .parceiros {
   height: 15em;
   width: 15em;
   display: flex;
   justify-content: center;
-}
+} */
 .parceiros img {
   width: 5em;
   height: 5em;
@@ -48,4 +48,30 @@ span {
 #carouselExampleFade {
   width: 60vw;
   margin-left: 40px;
+}
+
+@media (max-width: 576px) {
+  .alogo img {
+    margin-left: -10px;
+  }
+  #carouselExampleFade {
+    width: 45vw;
+    margin-top: -55px;
+    margin-bottom: -5px;
+  }
+  .carousel-item img {
+    max-height: 4rem;
+    margin-left: 35px;
+  }
+  .bandeira {
+    display: none;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+}
+@media (min-width: 769px) {
+}
+
+@media (min-width: 1200px) {
 }
