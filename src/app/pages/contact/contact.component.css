@@ -54,19 +54,13 @@ span {
   .alogo img {
     margin-left: -10px;
   }
-  #carouselExampleFade {
-    /* width: 45vw;
-    margin-top: -55px;
-    margin-bottom: -5px; */
+
+  .bandeira {
     display: none;
   }
   .carousel-item img {
-    /* max-height: 4rem;
-    margin-left: 35px; */
-    display: none;
-  }
-  .bandeira {
-    display: none;
+    max-height: 4rem;
+    margin-left: -15px;
   }
 }
 
