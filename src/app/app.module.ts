@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { SharedModule } from 'src/shared/shared,module';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
-import { ContactComponent } from './pages/contact/contact.component';
+
 import { FormsModule } from '@angular/forms';
 import { AdoptComponent } from './pages/adopt/adopt.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
@@ -23,7 +23,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent,
+
     AdoptComponent,
 
 
