@@ -19,7 +19,7 @@
   height: 5em;
 }
 
-li a img {
+li p img {
   width: 3em;
   height: 3em;
   margin-right: 5px;
@@ -85,8 +85,8 @@ span {
   #carouselExampleFade {
     max-width: 40vw;
     margin-left: 220px;
-    margin-top: -65px;
-    margin-bottom: -5px;
+    margin-top: -100px;
+    margin-bottom: -20px;
   }
   .carousel-item img {
     max-height: 8vh;
@@ -101,15 +101,15 @@ span {
   #carouselExampleFade {
     max-width: 35vw;
     margin-left: 220px;
-    margin-top: -65px;
-    margin-bottom: -5px;
+    margin-top: -100px;
+    margin-bottom: -25px;
   }
   .carousel-item img {
     max-height: 8vh;
   }
   .bandeira {
     margin-top: -55px;
-    margin-left: -20em;
+    margin-left: -17em;
   }
 }
 @media (min-width: 992px) {
