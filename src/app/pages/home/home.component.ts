@@ -13,7 +13,7 @@ export class HomeComponent {
  }
 
  ngOnInit() {
-  this.titleService.setTitle('Ajude Pet - home');
+  this.titleService.setTitle('Ajude Pet - Página inicial');
 
  }
 
