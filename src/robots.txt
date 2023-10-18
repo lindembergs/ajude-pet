@@ -1,7 +1,5 @@
 User-agent: Googlebot
 Disallow: /nogooglebot/
-
 User-agent: *
 Allow: /
-
 Sitemap: https://www.ajudepet.com/sitemap.xml
