@@ -24,6 +24,11 @@ span {
   background-size: cover;
 }
 
+.card-img-top {
+  height: cover;
+  width: cover;
+}
+
 .card {
   border: solid 2px rgb(21, 163, 8);
   margin-top: 5px;
