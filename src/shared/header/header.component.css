@@ -55,9 +55,6 @@ span {
     margin-left: -10px;
   }
 
-  .bandeira {
-    display: none;
-  }
   .carousel-item img {
     max-height: 4rem;
     margin-left: -15px;
@@ -69,47 +66,34 @@ span {
     margin-left: -10px;
   }
   #carouselExampleFade {
-    width: 55vw;
+    width: 46vw;
     margin-top: -55px;
     margin-bottom: -5px;
   }
   .carousel-item img {
     max-height: 4rem;
-    margin-left: 20px;
-  }
-  .bandeira {
-    display: none;
+    margin-left: 50px;
   }
 }
 @media (min-width: 769px) {
   #carouselExampleFade {
-    max-width: 40vw;
-    margin-left: 220px;
-    margin-top: -100px;
-    margin-bottom: -20px;
+    max-width: 45vw;
+    margin-left: 230;
+    margin-top: -55px;
   }
   .carousel-item img {
     max-height: 8vh;
-  }
-  .bandeira {
-    margin-top: -55px;
-    margin-left: -250px;
   }
 }
 
 @media (min-width: 795px) and (max-width: 991px) {
   #carouselExampleFade {
-    max-width: 35vw;
+    max-width: 45vw;
     margin-left: 220px;
-    margin-top: -100px;
-    margin-bottom: -25px;
+    margin-top: -75x;
   }
   .carousel-item img {
     max-height: 8vh;
-  }
-  .bandeira {
-    margin-top: -55px;
-    margin-left: -17em;
   }
 }
 @media (min-width: 992px) {
@@ -121,10 +105,5 @@ span {
   }
   .carousel-item img {
     max-height: 9vh;
-  }
-  .bandeira {
-    margin-top: -35px;
-    margin-left: 1rem;
-    margin-bottom: -35px;
   }
 }
