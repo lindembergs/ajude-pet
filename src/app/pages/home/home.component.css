@@ -43,10 +43,6 @@ button {
   border-radius: 50px;
 }
 
-a.btn.btn-primary {
-  display: list-item;
-}
-
 .card:hover {
   border: solid 2px rgb(214, 191, 58);
   border-radius: 11px;
