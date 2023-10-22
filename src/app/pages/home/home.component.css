@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: top;
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -19,7 +20,8 @@ span {
   justify-content: space-evenly;
   flex-wrap: wrap;
   border: solid 1px rgb(21, 163, 8);
-  background-image: url("https://cdn.pixabay.com/photo/2017/06/22/20/22/green-2432374_640.jpg");
+  background-image: url("../../../assets/img/pedra.jpg");
+
   background-repeat: no-repeat;
   background-size: cover;
 }
