@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-  <url>
-    <loc>https://www.ajudepet.com/</loc>
-    <lastmod>2023-10-22T04:44:10+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ajudepet.com/adoção</loc>
-    <lastmod>2023-10-22T04:44:10+00:00</lastmod>
-  </url>
+<url>
+  <loc>https://www.ajudepet.com/</loc>
+  <lastmod>2023-10-25T04:39:41+00:00</lastmod>
+</url>
 
 
 </urlset>
