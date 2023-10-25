@@ -71,11 +71,11 @@
 }
 
 @media (max-width: 437px) {
-  .e-mail {
+  .whats {
     display: none;
   }
   .social-mideas .icons ul {
-    margin-top: 1.5rem;
+    margin-top: 0.7rem;
   }
 }
 
