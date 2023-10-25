@@ -17,9 +17,10 @@ span {
 
 .cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   border: solid 1px rgb(21, 163, 8);
+  /* background: url("../../../assets/img/pavão.jpg"); */
   background-image: url("../../../assets/img/background.jpg");
 
   background-repeat: no-repeat;
