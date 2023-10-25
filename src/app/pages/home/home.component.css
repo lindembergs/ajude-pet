@@ -21,7 +21,8 @@ span {
   flex-wrap: wrap;
   border: solid 1px rgb(21, 163, 8);
   /* background: url("../../../assets/img/pavão.jpg"); */
-  background-image: url("../../../assets/img/background.jpg");
+  /* background-image: url("../../../assets/img/background.jpg"); */
+  background: linear-gradient(to bottom right, #006600, #098809, #006600);
 
   background-repeat: no-repeat;
   background-size: cover;
